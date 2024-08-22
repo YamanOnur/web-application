@@ -14,9 +14,13 @@ This project demonstrates how to containerize a simple web application using Doc
 
 MyWebApp/
 ├── app.py # Python Flask application
+
 ├── Dockerfile # Dockerfile to build the image
+
 ├── deployment.yaml # Kubernetes Deployment file
+
 ├── service.yaml # Kubernetes Service file
+
 └── README.md # Project documentation
 
 
