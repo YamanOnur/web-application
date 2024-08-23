@@ -66,8 +66,8 @@ The application should be accessible at http://localhost:5000.
 ### 4. Pull the image from DockerHub
 
 - You can pull the image if you want to check:
-    ```bash
-    docker pull onryaman/web-application
+  ```bash
+  docker pull onryaman/web-application
 
 ## Conclusion
 
