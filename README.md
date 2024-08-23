@@ -41,7 +41,6 @@ MyWebApp/
 - Build the Docker image using:
   ```bash
   docker build -t web-application:latest .
-  docker run -p 4000:80 web-application:latest
 - Test the docker image using:
   ```bash
   docker run -p 4000:80 web-application:latest
@@ -70,7 +69,6 @@ The application should be accessible at http://localhost:4000.
 - Verify that the application is running:
   ```bash
   kubectl get pods
-  kubectl get services
 - Access the Application:
   ```bash
   kubectl get services
