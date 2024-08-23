@@ -1,4 +1,5 @@
-# web-application - A Simple Web Application Deployed with Docker and Kubernetes
+# web-application 
+# A Simple Web Application Deployed with Docker and Kubernetes
 
 ## Overview
 This project demonstrates how to containerize a simple web application using Docker and deploy it on a Kubernetes cluster. The web application is built using Python Flask and displays a "Hello World!" message. The project includes a Dockerfile for containerization, Kubernetes Deployment and Service files for deployment.
