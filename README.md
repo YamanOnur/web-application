@@ -63,7 +63,9 @@ The application should be accessible at http://localhost:5000.
   kubectl get services
 - Verify that the application displays "Hello World!" by accessing the external IP or domain.
 
-### Pull the image from DockerHub: 
+### 4. Pull the image from DockerHub
+
+- You can pull the image if you want to check:
     ```bash
     docker pull onryaman/web-application
 
