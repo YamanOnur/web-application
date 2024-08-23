@@ -44,7 +44,7 @@ MyWebApp/
   docker build -t web-application:latest .
 - Test the docker image using:
   ```bash
-  docker run -p 4000:80 web-application:latest
+  docker run -p 5000:5000 web-application:latest
 The application should be accessible at http://localhost:4000.
 
 ### 3. Pushing the Docker Image to Docker Hub
