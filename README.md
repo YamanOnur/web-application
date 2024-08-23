@@ -47,19 +47,7 @@ MyWebApp/
   docker run -p 5000:5000 web-application:latest
 The application should be accessible at http://localhost:5000.
 
-### 3. Pushing the Docker Image to Docker Hub
-
-- Log in to Docker Hub using:
-  ```bash
-  docker login
-- Tag the Docker image:
-  ```bash
-  docker tag web-application:latest onryaman/web-application:1.0
-- Push the Docker image to Docker Hub:
-  ```bash
-  docker push onryaman/web-application:1.0
-
-### 4. Deploying the Application on Kubernetes
+### 3. Deploying the Application on Kubernetes
 
 - Apply the Kubernetes Deployment file:
   ```bash
@@ -74,6 +62,10 @@ The application should be accessible at http://localhost:5000.
   ```bash
   kubectl get services
 - Verify that the application displays "Hello World!" by accessing the external IP or domain.
+
+### Pull the image from dockerhub
+  ```bash
+  docker pull onryaman/web-application
 
 ## Conclusion
 
