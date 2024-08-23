@@ -54,7 +54,7 @@ The application should be accessible at http://localhost:4000.
   docker login
 - Tag the Docker image:
   ```bash
-  docker tag mywebapp:latest onryaman/web-application:1.0
+  docker tag web-application:latest onryaman/web-application:1.0
 - Push the Docker image to Docker Hub:
   ```bash
   docker push onryaman/web-application:1.0
